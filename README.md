@@ -1,4 +1,4 @@
-# payflow
+# Pay-Flow
 
 NLW Together - Rocketseat
 

@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import './themes.dart';
 
 class TextStyles {
+
   static final titleHome = GoogleFonts.lexendDeca(
     fontSize: 32,
     fontWeight: FontWeight.w600,
@@ -80,6 +81,11 @@ class TextStyles {
     fontWeight: FontWeight.w700,
     color: AppColors.background,
   );
+  static final input = GoogleFonts.inter(
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: AppColors.input,
+  );
   static final captionBackground = GoogleFonts.lexendDeca(
     fontSize: 13,
     fontWeight: FontWeight.w400,
@@ -110,4 +116,5 @@ class TextStyles {
     fontWeight: FontWeight.w600,
     color: AppColors.body,
   );
+
 }

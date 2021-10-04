@@ -3,8 +3,13 @@ import 'package:flutter/material.dart';
 import '../../../shared/themes/themes.dart';
 
 class SocialLoginButton extends StatelessWidget {
+
   final VoidCallback onTap;
-  const SocialLoginButton({Key? key, required this.onTap}) : super(key: key);
+
+  const SocialLoginButton({
+    Key? key,
+    required this.onTap,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +39,7 @@ class SocialLoginButton extends StatelessWidget {
                     height: 56,
                     width: 1,
                     color: AppColors.stroke,
-                  )
+                  ),
                 ],
               ),
             ),
@@ -55,5 +60,5 @@ class SocialLoginButton extends StatelessWidget {
       ),
     );
   }
-}
 
+}
